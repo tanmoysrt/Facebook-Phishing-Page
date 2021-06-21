@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["H9T1BXR"]); }
+
+__d("XBasicFBNuxDismissController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/ajax/megaphone/dismiss_fbnux/",{nux_id:{type:"Int",required:!0}})}),null);
+__d("XBasicFBNuxViewController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/ajax/megaphone/view_fbnux/",{nux_id:{type:"Int",required:!0}})}),null);
